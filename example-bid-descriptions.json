@@ -1,12 +1,9 @@
 {
     "8": {
-      "title": "Wooo!",
-      "description": "This is **markdown enabled**",
-      "projectDetails": "This is also **markdown enabled**",
-      "points": 100000,
-      "pointsDenom": "DROPLET",
-      "pointProgramLink": "www.learnaboutmypoints.com",
-      "committeeComments": "**Good job**!",
-      "appendix": "**Blakjsdflkajsfl** and so on"
+      "title": "Margined Redemption Rate Arb Liquidity",
+      "description": "### Use case\n\nRedemption Rate Arbitrage and LPing in stATOM<>ATOM Pool. The liquidity would be deposited in [vaults](https://trade.margined.io/vaults/atom-redemption-rate) and then the liquidity would arbitrage LSDs including stATOM, dATOM and qATOM. Liquidity will be deposited into two vaults. \n\n### Performance goals\n\nThe committee may monitor the position by navigating to trade.margined.io and selecting the appropriate vault (Neutron ATOM / Osmosis ATOM). This will display assets held by account and give projected performance.\n\nThe vaults are projected to earn:\n\n- **Osmosis ATOM**: discount 1.13% APR (estimate): 23.65%\n- **Neutron ATOM**: discount 0.42% APR (estimate): 8.73%\n\n### Tribute & Target\n\nThe tribute will be paid in USDC. The PoL target is 50,000 ATOM.\n\n### Risk mitigation\n\nLP Bid Limitation: LPing will be subject to cap the bid at 33% of total existing deposits, we will monitor future deposits to the LP.\n\n### Security\n\nThe Margined code is open-source and is available [here](https://github.com/margined-protocol), the current on-chain code is not audited. The documentation for the Margined protocol can be found [here](https://docs.margined.io/). Emergency security [contact](https://t.me/maxr0bot) is [here](https://t.me/maxr0bot). \n\n### Deployment\n\n- **Osmosis ATOM Redemption Rate Arbitrage Vault**: osmo1hvl5kj4xzdj4udxjv2dzk2zfqhzkd9afqygwq3t84tn53e0250zqrltj48\n- **Neutron ATOM Redemption Rate Arbitrage Vault**: neutron1puedrclm6rn33x3zv66xg6m23qcdagayqua6jj2wqzvfznlqef8qe53wr2",
+      "projectDetails": "*Name*: Margined\n*Website*: https://www.margined.io/ \n*Project type*: General",
+      "committeeComments": "In the arbitrage strategy, we recommended limiting the tranche to 50,000 Atoms. Any proposition beyond that would likely hinder the profit factor. \n\nIn the LPing strategy, we required the project to bootstrap the pool first as the whitelisted allocation for Hydro will be sized to a maximum 33% of that pool’s deposits. The Margined team didn’t perform any security audits on their public on-chain code."
     }
-}
+  }
+  
