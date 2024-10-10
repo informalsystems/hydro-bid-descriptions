@@ -2,8 +2,10 @@
     "8": {
       "title": "Wooo!",
       "description": "This is **markdown enabled**",
+      "projectDetails": "This is also **markdown enabled**",
       "points": 100000,
       "pointsDenom": "DROPLET",
+      "pointProgramLink": "www.learnaboutmypoints.com",
       "committeeComments": "**Good job**!",
       "appendix": "**Blakjsdflkajsfl** and so on"
     }
