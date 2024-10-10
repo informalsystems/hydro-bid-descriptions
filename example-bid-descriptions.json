@@ -1,0 +1,10 @@
+{
+    "8": {
+      "title": "Wooo!",
+      "description": "This is **markdown enabled**",
+      "points": 100000,
+      "pointsDenom": "DROPLET",
+      "committeeComments": "**Good job**!",
+      "appendix": "**Blakjsdflkajsfl** and so on"
+    }
+}
