@@ -10,3 +10,4 @@ are working out templates and processes.
 This information is expected to live on-chain in the future.
 
 The bid information is stored in the `bid-description.json` file.
+See the [example-bid-description.json](example-bid-description.json) file to see the structure of those descriptions.
