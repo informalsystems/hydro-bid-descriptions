@@ -29,7 +29,7 @@
     "projectName": "Drop",
     "projectUrl": "https://www.drop.money/",
     "points": [5000000, "DROPLETS"],
-    "pointProgramLink": "www.droplets.drop.money",
+    "pointProgramLink": "https://www.droplets.drop.money",
     "committeeComments": "The risk from adding liquidity to the existing Astroport LP ATOM/dATOM is small. The committee will enforce the 33% cap on overall LP shares owned by Hydro.\n\nThere are no live dATOM LPs on Osmosis so bootstrapping new liquidity LPs won't be done during the first pilot round.",
     "requestAmount": [[500000, "ATOM"]]
   }
