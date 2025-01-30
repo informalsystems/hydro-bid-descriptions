@@ -366,5 +366,20 @@
                 "ATOM"
             ]
         ]
+    },
+    "24": {
+        "title": "Drop: Astroport & Osmosis LP and Mars pool",
+        "projectLogoUrl": "/images/logo-drop.png",
+        "aboutProject": "Drop is a liquid staking protocol for Interchain assets and a member of the Lido Alliance. Built on Neutron, Drop's smart contract architecture uses the IBC protocol and Neutron’s ICTX and ICQ modules to provide liquid staking services and scale with minimal overhead and risk. Drop’s architecture consists of CosmWasm contracts controlling the flow of assets between multiple blockchains using IBC, ICTX, and ICQ. Upon receipt of supported assets, the protocol mints liquid staking receipt tokens (called dAssets) using the Token Factory standard.",
+        "description": "### Use Case\n\nAdding DEX LPing on Astroport and Osmosis on the ATOM/dATOM pairs, adding ATOM to Mars protocol borrowing pool.\nThe Osmosis deployment is a part of a bootstrapping strategy and will be limited to 10K ATOM.\nThe rest of the Hydro liquidity will be split between Mars protocol and Astroport.\n\n### Duration, Tribute, Yield & Target\n\nThe tribute will be paid in Droplets (point system), which will be converted into DROP tokens upon the TGE.\nIn total, 100 million DROP tokens will be distributed to the Droplets owners in proportion to their share of the overall Droplet amount.\n\nThe PoL target is 50,000 ATOM.\nThe deployment duration will be 3 months.\nATOM → dATOM conversion does not incur any cost.\nThe current pool APR is 0.83%; we expect this to fluctuate around 1% for the next month.\n\n### Risk Mitigation and Security\n\nLPing will be subject to a cap of 33% of total existing deposits.\n\nThe Drop code is open-source and is available [here].\nThe current on-chain code is audited by OAK Security and can be found [here].\nThe documentation for the Drop protocol can be found [here].\nEmergency security contact has been provided to the Hydro committee.\n\n### Monitoring\n\nThe committee may monitor the position via Astroport UI in [this pool].\n\n### Deployment\n\n**Astroport ATOM/dATOM pool**\nNeutron1yem82r0wf837lfkwvcu2zxlyds5qrzwkz8alvmg0apyrjthk64gqeq2e98",
+        "projectName": "Drop",
+        "projectUrl": "https://www.drop.money/",
+        "committeeComments": "The risk from adding liquidity to the existing Astroport LP ATOM/dATOM is small.\nThe committee will enforce the 33% cap on overall LP shares owned by Hydro.\n\nThere are no live dATOM LPs on Osmosis, so bootstrapping new liquidity LPs won’t be done during the first pilot round.\n\nRegarding lending deposits into Mars, Hydro requires an LTV ratio of 50-60% for deposited ATOMs, which translates to a maximum leverage of 2.5x for undercollateralized loans.\nThis safety restriction will be gradually reduced over time.\nAdditionally, lending facilities are subject to a 50% Hydro share deposit cap, whereas LP positions are capped at 33%.",
+        "requestAmount": [
+            [
+                "50000",
+                "ATOM"
+            ]
+        ]
     }
 }
