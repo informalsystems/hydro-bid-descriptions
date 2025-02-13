@@ -7,7 +7,8 @@
       "projectType": "General",
       "projectUrl": "https://www.margined.io",
       "committeeComments": "In the arbitrage strategy, we recommended limiting the tranche to 50,000 Atoms. Any proposition beyond that would likely hinder the profit factor. \n\nIn the LPing strategy, we required the project to bootstrap the pool first as the whitelisted allocation for Hydro will be sized to a maximum 33% of that pool’s deposits. The Margined team didn’t perform any security audits on their public on-chain code.",
-      "requestAmount": [[50000, "ATOM"]]
+      "requestAmount": [[50000, "ATOM"]],
+      "minMaxTargetPolApr": [4, 8]
     },
     "9": {
       "title": "An example with points",
@@ -20,6 +21,7 @@
       "requestAmount": [[100000, "ATOM"]],
       "points": [100000, "POINTS (or DROPLETS, superpoints, etc. The denom that should be displayed for this points in the frontend)"],
       "pointProgramUrl": "https://www.learnaboutmypoints.com (a URL to a website explaining some details about the point program)",
-      "appendix": "A markdown-enabled space for extra auxiliary information on the bid."
+      "appendix": "A markdown-enabled space for extra auxiliary information on the bid.",
+      "minMaxTargetPolApr": [2.5, 7.5]
     }
 }
