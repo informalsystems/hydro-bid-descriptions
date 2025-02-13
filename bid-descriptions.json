@@ -284,7 +284,7 @@
     "projectUrl": "https://www.stride.zone/",
     "committeeComments": "For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 50% of the pool. If this threshold is reached, the committee will periodically review the allocation, adjusting by adding or removing liquidity to maintain the target balance.",
     "requestAmount": [["100000", "ATOM"]],
-    "minMaxTargetPolApr": [0, 0]
+    "minMaxTargetPolApr": [1, 5]
   },
   "26": {
     "title": "Nolus Liquidity Provision ATOM LP",
@@ -295,6 +295,6 @@
     "projectUrl": "https://nolus.io/",
     "committeeComments": "The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having a cap of 66% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports.",
     "requestAmount": [["5000", "ATOM"]],
-    "minMaxTargetPolApr": [0, 0]
+    "minMaxTargetPolApr": [6.5, 6.5]
   }
 }
