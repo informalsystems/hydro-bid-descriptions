@@ -364,5 +364,5 @@
     "committeeComments": "Assuming the bid is successful, the committee will allocate up to 40,000 ATOMs, adhering to the principle of maintaining a maximum 33% participation rate in the overall LP shares. This corresponds to approximately 12,000 ATOMs in ATOM - stATOM and 28,000 in ATOM - dATOM. Should Hydro's position exceed the 50% participation threshold, the committee will reassess and reduce the position to ensure alignment with the established 33% criterion.",
     "requestAmount": [["50000", "ATOM"]],
     "minMaxTargetPolApr": [0.84, 1]
-  },
+  }
 }
