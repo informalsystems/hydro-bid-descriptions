@@ -331,7 +331,7 @@
     "committeeComments": "The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having a cap of 66% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports. The requested amount being below the bootstrap framework cap of 10,000 Atoms, the committee can deposit the full amount, assuming a successful bid.",
     "requestAmount": [["5000", "ATOM"]],
     "minMaxTargetPolApr": [6.5, 6.5]
-  }
+  },
     "30": {
     "title": "ATOM Liquidity for ShadeX",
     "projectLogoUrl": "/images/logo-shade.png",
@@ -342,7 +342,7 @@
     "committeeComments": "The proposed bid appears to present no significant risks, provided that the audits have been conducted in accordance with required standards. To align with Hydro’s early-stage protocol standards, the liquidation engine must operate with a Loan-to-Value (LTV) cap of approximately 66% for lending facilities. This precautionary measure ensures stability and mitigates risk during the initial phase. The LTV cap will be gradually lifted as liquidity conditions within the Cosmos ecosystem improve. The requested bid amount falls below the bootstrap framework’s cap of 10,000 ATOMs. As such, the committee can approve the full amount, assuming the bid is successful.",
     "requestAmount": [["10000", "ATOM"]],
     "minMaxTargetPolApr": [2.7, 11.1]
-  }
+  },
 "31": {
     "title": "Mars Protocol: ATOM Lending & DeFi Flywheel",
     "projectLogoUrl": "/images/logo-mars.png",
