@@ -48,7 +48,7 @@
     "projectName": "Shade Protocol",
     "projectUrl": "https://shadeprotocol.io",
     "committeeComments": "The 33% cap is in place for the LP, The committee deems this bid safe, with a proper risk mitigation strategy in place. The ATOM/stATOM LP's have a very low Impermanent loss risk.",
-    "requestAmount": [["10000", "ATOM"]],
+    "requestAmount": [[10000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "5": {
@@ -58,7 +58,7 @@
     "projectName": "Nolus Protocol",
     "projectUrl": "https://nolus.io/",
     "committeeComments": "The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having in place a cap of 60% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports.",
-    "requestAmount": [["5000", "ATOM"]],
+    "requestAmount": [[5000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "6": {
@@ -68,7 +68,7 @@
     "projectName": "White Whale",
     "projectUrl": "https://app.whitewhale.money/",
     "committeeComments": "LPing will be subject to cap the bid at 33% of total existing deposits.",
-    "requestAmount": [["2000", "ATOM"]],
+    "requestAmount": [[2000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "7": {
@@ -79,7 +79,7 @@
     "projectName": "Phoenix Directive",
     "projectUrl": "https://x.com/phoenix_dir",
     "committeeComments": "The Hydro committee will gradually allocate the 25,000 ATOM, ensuring Hydro's participation stays below 33% of total LP shares. As Terra’s Liquidity Alliance boosts pool liquidity with incentives over time, Hydro’s committee should monitor and adjust allocations proportionally. Should Hydro's share exceed 50%, the committee will reassess and reduce its position to align with the 33% target",
-    "requestAmount": [["25000", "ATOM"]],
+    "requestAmount": [[25000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "8": {
@@ -169,7 +169,7 @@
     "projectName": "Phoenix Directive",
     "projectUrl": "https://x.com/phoenix_dir",
     "committeeComments": "The Hydro committee will gradually allocate the 30,000 ATOM, ensuring Hydro's participation stays below 33% of total LP shares. As Terra’s Liquidity Alliance boosts pool liquidity with incentives over time, Hydro’s committee should monitor and adjust allocations proportionally. Should Hydro's share exceed 50%, the committee will reassess and reduce its position to align with the 33% target",
-    "requestAmount": [["30000", "ATOM"]],
+    "requestAmount": [[30000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "16": {
@@ -180,7 +180,7 @@
     "projectName": "Mars Protocol",
     "projectUrl": "https://marsprotocol.io",
     "committeeComments": "Based on the current utilization rate and existing deposits, we recommend capping the bid at 200,000 ATOMs.\nThe committee will deploy liquidity up to this cap, while any excess liquidity will remain on standby.\nThis reserve will be gradually introduced by the committee as utilization levels increase.",
-    "requestAmount": [["200000", "ATOM"]],
+    "requestAmount": [[200000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "17": {
@@ -191,7 +191,7 @@
     "projectName": "Stride",
     "projectUrl": "https://www.stride.zone/",
     "committeeComments": "For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 33% of the pool.\nIf this threshold is reached, the committee will periodically review the allocation, making adjustments by adding or removing liquidity as needed to maintain the target balance.",
-    "requestAmount": [["100000", "ATOM"]],
+    "requestAmount": [[100000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "18": {
@@ -202,7 +202,7 @@
     "projectName": "Stride",
     "projectUrl": "https://www.stride.zone/",
     "committeeComments": "For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 33% of the pool. If this threshold is reached, the committee will periodically review the allocation, adjusting by adding or removing liquidity to maintain the target balance.",
-    "requestAmount": [["100000", "ATOM"]],
+    "requestAmount": [[100000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "19": {
@@ -213,7 +213,7 @@
     "projectName": "DCF",
     "projectUrl": "https://www.inter.protocol",
     "committeeComments": "The committee should allocate the requested 50,000 ATOM tranche to Inter Protocol to establish a vault IST position with delegated ATOM. Collateralization ratios will be monitored actively and adjusted to maintain a healthy range above 260%. If the ratio falls below 200%, the position will be reassessed to safeguard against liquidation risk.",
-    "requestAmount": [["50000", "ATOM"]],
+    "requestAmount": [[50000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "20": {
@@ -224,7 +224,7 @@
     "projectName": "White Whale",
     "projectUrl": "https://app.whitewhale.money/",
     "committeeComments": "Given the increased liability risks associated with the 10% take rate on LP deposits under the Terra Liquidity Alliance protocol, the committee has decided to limit this bid to the minimum tranche amount of 10,000 ATOMs. This cap, applied at the protocol level, governs all deposits made through the Terra Liquidity Alliance. Since the current bid only requests 3,000 ATOMs, we can fulfill the entire bid while adhering to risk mitigation measures. Hydro will maintain this cap until the protocol incorporates slashing mechanisms in its v2 release. Additionally, Hydro’s deployment will utilize the auto-compounding version to offset LP dilution through incentives.",
-    "requestAmount": [["3600", "ATOM"]],
+    "requestAmount": [[3600, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "21": {
@@ -235,7 +235,7 @@
     "projectName": "Neptune Finance",
     "projectUrl": " https://nept.finance/",
     "committeeComments": "The project currently holds approximately 30K ATOMs in deposits. To prevent disrupting natural market dynamics and an excessive dilution of rewards, we propose a bid limit set at 50% of overall shares, similar to other participants. Based on these figures, we recommend capping the liquidity deployment to 30K ATOMs. We can consider introducing larger tranches in future bidding rounds as protocol utilization increases.",
-    "requestAmount": [["20000", "ATOM"]],
+    "requestAmount": [[20000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "22": {
@@ -248,7 +248,7 @@
     "points": [250000, "INGOTS"],
     "pointProgramUrl": "https://ingots.amulet.finance/",
     "committeeComments": "The presented strategy offers interesting opportunities with very limited risks. Contracts are audited which allows Hydro to apply the bootstrapping framework and support the project with an initial 10K ATOM injection. Assuming rising demand for deposits in the pool, the project may be able to request more in the future. Hydro LP deposits would then be subject to the 33% share (after deposit) cap in the pools.",
-    "requestAmount": [["10000", "ATOM"]],
+    "requestAmount": [[10000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "23": {
@@ -259,7 +259,7 @@
     "projectName": "Nolus",
     "projectUrl": "https://nolus.io/",
     "committeeComments": "The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having a cap of 60% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports.",
-    "requestAmount": [["5000", "ATOM"]],
+    "requestAmount": [[5000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "24": {
@@ -272,7 +272,7 @@
     "points": [10000000, "DROPLETS"],
     "pointProgramUrl": "https://droplets.drop.money",
     "committeeComments": "The risk from adding liquidity to the existing Astroport LP ATOM/dATOM is small.\nThe committee will enforce the 33% cap on overall LP shares owned by Hydro.\n\nThere are no live dATOM LPs on Osmosis, so bootstrapping new liquidity LPs won’t be done during the first pilot round.\n\nRegarding lending deposits into Mars, Hydro requires an LTV ratio of 50-60% for deposited ATOMs, which translates to a maximum leverage of 2.5x for undercollateralized loans.\nThis safety restriction will be gradually reduced over time.\nAdditionally, lending facilities are subject to a 50% Hydro share deposit cap, whereas LP positions are capped at 33%.",
-    "requestAmount": [["50000", "ATOM"]],
+    "requestAmount": [[50000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "25": {
@@ -283,7 +283,7 @@
     "projectName": "Stride",
     "projectUrl": "https://www.stride.zone/",
     "committeeComments": "For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 50% of the pool. If this threshold is reached, the committee will periodically review the allocation, adjusting by adding or removing liquidity to maintain the target balance.",
-    "requestAmount": [["100000", "ATOM"]],
+    "requestAmount": [[100000, "ATOM"]],
     "minMaxTargetPolApr": [1, 5]
   },
   "26": {
@@ -294,7 +294,7 @@
     "projectName": "Nolus",
     "projectUrl": "https://nolus.io/",
     "committeeComments": "The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having a cap of 66% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports.",
-    "requestAmount": [["5000", "ATOM"]],
+    "requestAmount": [[5000, "ATOM"]],
     "minMaxTargetPolApr": [6.5, 6.5]
   },
   "27": {
@@ -305,7 +305,7 @@
     "projectName": "Neptune Finance",
     "projectUrl": "https://nept.finance/",
     "committeeComments": "The project currently holds approximately 30K ATOMs in deposits. To prevent disrupting natural market dynamics and an excessive dilution of rewards, we propose a bid limit set at 50% of overall shares, similar to other participants. Based on these figures, we recommend capping the liquidity deployment to 30K ATOMs. As protocol utilization increases, we can consider introducing larger tranches in future bidding rounds. \n\nRegarding the nATOM/dATOM liquidity provision, the committee has agreed to set an initial cap of 10,000 ATOMs corresponding to this bid expectation due to the complex risk structure involved. It, therefore, allows for a quick deployment without extensively compromising community funds. This cap is temporarily set, waiting on a more thorough review by the committee, upon which the cap will be adjusted to allow the deposits to scale.",
-    "requestAmount": [["10000", "ATOM"]],
+    "requestAmount": [[10000, "ATOM"]],
     "minMaxTargetPolApr": [2.1, 7.5]
   },
   "28": {
@@ -318,7 +318,7 @@
     "points": [20000000, "DROPLETS"],
     "pointProgramUrl": "https://droplets.drop.money",
     "committeeComments": "The risk from adding liquidity to the existing Astroport LP ATOM/dATOM is small. The committee will enforce the 50% cap on overall LP shares owned by Hydro.\n\nThere are no live dATOM LPs on Osmosis so bootstrapping new liquidity LPs won’t be done during the first pilot round.\n\nRegarding lending deposits into Mars, Hydro requires an LTV ratio of 50-60% for deposited ATOMs, translating to a maximum leverage of 2.5x for undercollateralized loans. This safety restriction will be gradually reduced over time. Additionally, lending facilities are subject to a 50% Hydro share deposit cap, whereas LP positions are capped at 33%.",
-    "requestAmount": [["80000", "ATOM"]],
+    "requestAmount": [[80000, "ATOM"]],
     "minMaxTargetPolApr": [0, 0]
   },
   "29": {
@@ -329,7 +329,7 @@
     "projectName": "Nolus",
     "projectUrl": "https://nolus.io/",
     "committeeComments": "The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having a cap of 66% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports. The requested amount being below the bootstrap framework cap of 10,000 Atoms, the committee can deposit the full amount, assuming a successful bid.",
-    "requestAmount": [["5000", "ATOM"]],
+    "requestAmount": [[5000, "ATOM"]],
     "minMaxTargetPolApr": [6.5, 6.5]
   },
   "30": {
@@ -340,7 +340,7 @@
     "projectName": "Shade Protocol - ShadeX",
     "projectUrl": "https://app.shadeprotocol.io/lend",
     "committeeComments": "The proposed bid appears to present no significant risks, provided that the audits have been conducted in accordance with required standards. To align with Hydro’s early-stage protocol standards, the liquidation engine must operate with a Loan-to-Value (LTV) cap of approximately 66% for lending facilities. This precautionary measure ensures stability and mitigates risk during the initial phase. The LTV cap will be gradually lifted as liquidity conditions within the Cosmos ecosystem improve. The requested bid amount falls below the bootstrap framework’s cap of 10,000 ATOMs. As such, the committee can approve the full amount, assuming the bid is successful.",
-    "requestAmount": [["10000", "ATOM"]],
+    "requestAmount": [[10000, "ATOM"]],
     "minMaxTargetPolApr": [2.7, 11.1]
   },
   "31": {
@@ -351,7 +351,7 @@
     "projectName": "Mars Protocol",
     "projectUrl": "https://marsprotocol.io",
     "committeeComments": "Last updated on march 17th 2025: Based on the current utilization rate and existing deposits, we recommend capping the bid at 400,000 ATOMs. This is according to the committee rule to limit lending protocol deposits to 50% participation rate (after deposit). The committee will deploy liquidity up to this cap, while any excess liquidity will remain on standby. The committee will gradually introduce this reserve as utilization levels increase.",
-    "requestAmount": [["150000", "ATOM"]],
+    "requestAmount": [[150000, "ATOM"]],
     "minMaxTargetPolApr": [6, 7]
   },
   "32": {
@@ -362,7 +362,7 @@
     "projectName": "Phoenix Directive",
     "projectUrl": "https://x.com/phoenix_dir",
     "committeeComments": "Assuming the bid is successful, the committee will allocate up to 40,000 ATOMs, adhering to the principle of maintaining a maximum 33% participation rate in the overall LP shares. This corresponds to approximately 12,000 ATOMs in ATOM - stATOM and 28,000 in ATOM - dATOM. Should Hydro's position exceed the 50% participation threshold, the committee will reassess and reduce the position to ensure alignment with the established 33% criterion.",
-    "requestAmount": [["50000", "ATOM"]],
+    "requestAmount": [[50000, "ATOM"]],
     "minMaxTargetPolApr": [0.84, 1]
   },
   "33": {
@@ -373,7 +373,7 @@
     "projectName": "Stride",
     "projectUrl": "https://www.stride.zone/",
     "committeeComments": "For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 50% of the pool. If this threshold is reached, the committee will periodically review the allocation, making adjustments by adding or removing liquidity as needed to maintain the target balance.",
-    "requestAmount": [["100000", "ATOM"]],
+    "requestAmount": [[100000, "ATOM"]],
     "minMaxTargetPolApr": [1, 5]
   },
   "34": {
@@ -384,7 +384,7 @@
     "projectName": "Stride",
     "projectUrl": "https://www.stride.zone/",
     "committeeComments": "The proposed bid appears to present no significant risks, provided that the audits have been conducted in accordance with required standards. To align with Hydro’s early-stage protocol standards, the liquidation engine must operate with a Loan-to-Value (LTV) cap of approximately 66% for lending facilities. This precautionary measure ensures stability and mitigates risk during the initial phase. The LTV cap will be gradually lifted as liquidity conditions within the Cosmos ecosystem improve. The requested bid amount can be deployed up to the current 50% participation rate, with a minimum of 10,000 ATOMs corresponding to the bootstrap framework.",
-    "requestAmount": [["15000", "stATOM"]],
+    "requestAmount": [[15000, "stATOM"]],
     "minMaxTargetPolApr": [0, 0]
   }
 }
