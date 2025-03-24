@@ -332,7 +332,7 @@
     "requestAmount": [["5000", "ATOM"]],
     "minMaxTargetPolApr": [6.5, 6.5]
   },
-    "30": {
+  "30": {
     "title": "ATOM Liquidity for ShadeX",
     "projectLogoUrl": "/images/logo-shade.png",
     "aboutProject": "ShadeX is an encrypted borrowing and lending protocol, built by Shade Protocol on Secret Network, that ensures all contract interactions, including borrowing, lending, collateral management, and yield generation are private by default. This platform enables cross-margin borrowing positions with robust features for lenders and borrowers, providing flexibility and security for users and the protocol. Lenders on ShadeX receive xTokens, which are liquid, yield-bearing tokens representing the underlying lent principal and autocompounding interest paid by borrowers.",
@@ -343,7 +343,7 @@
     "requestAmount": [["10000", "ATOM"]],
     "minMaxTargetPolApr": [2.7, 11.1]
   },
-"31": {
+  "31": {
     "title": "Mars Protocol: ATOM Lending & DeFi Flywheel",
     "projectLogoUrl": "/images/logo-mars.png",
     "aboutProject": "Mars Protocol is a DeFi credit and trading platform designed to unlock capital efficiency and drive liquidity across Cosmos ecosystems. Operating on Neutron and Osmosis, the protocol enables over-collateralized borrowing, leveraged staking, and advanced trading strategies via its Red Bank and Rover functionalities. Mars Protocol has been instrumental in driving adoption for ATOM liquid staking tokens (LSTs) such as dATOM and stATOM and aims to continue expanding ATOM-based DeFi strategies across the AEZ (Atom Economic Zone).",
