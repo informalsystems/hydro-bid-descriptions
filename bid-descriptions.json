@@ -396,7 +396,9 @@
     "projectUrl": "https://www.drop.money/ ",
     "committeeComments": "The requested amount for this bid falls under the bootstrap framework of 10,000 ATOMs, therefore the full amount can be deployed, assuming a successful bid.",
     "requestAmount": [[10000, "ATOM"]],
-    "minMaxTargetPolApr": [1.5, 2.5]
+    "minMaxTargetPolApr": [1.5, 2.5],
+    "points": [2000000, "DROPLETS"],
+    "pointProgramUrl": "https://droplets.drop.money"
   },
     "36": {
     "title": "Drop: dATOM/ATOM LP on Osmosis",
@@ -406,7 +408,9 @@
     "projectUrl": "https://www.drop.money/ ",
     "committeeComments": "For this deployment, the newly created framework for LSTs is applicable. The requested amount will proceed under the condition that Hydro's share does not exceed 25% of the total LSTs circulating for dATOM. If this threshold is reached, the committee will periodically review the allocation, making adjustments by adding or removing liquidity as needed to maintain the target balance.",
     "requestAmount": [[30000, "ATOM"]],
-    "minMaxTargetPolApr": [0.1, 26.9]
+    "minMaxTargetPolApr": [0.1, 26.9],
+    "points": [6000000, "DROPLETS"],
+    "pointProgramUrl": "https://droplets.drop.money"
   },
     "37": {
     "title": "Drop: dATOM/stATOM LP on Magma",
@@ -416,7 +420,9 @@
     "projectUrl": "https://www.drop.money/ ",
     "committeeComments": "The requested amount for this bid falls under the bootstrap framework of 10,000 ATOMs, therefore the full amount can be deployed, assuming a successful bid.",
     "requestAmount": [[10000, "ATOM"]],
-    "minMaxTargetPolApr": [22.8, 25]
+    "minMaxTargetPolApr": [22.8, 25],
+    "points": [2000000, "DROPLETS"],
+    "pointProgramUrl": "https://droplets.drop.money"
   },
     "38": {
     "title": "Drop: dATOM/ATOM LP on Astroport",
@@ -426,6 +432,8 @@
     "projectUrl": "https://www.drop.money/ ",
     "committeeComments": "For this deployment, the newly created framework for LSTs is applicable. The requested amount will proceed under the condition that Hydro's share does not exceed 25% of the total LSTs circulating for dATOM. If this threshold is reached, the committee will periodically review the allocation, making adjustments by adding or removing liquidity as needed to maintain the target balance.",
     "requestAmount": [[71000, "ATOM"]],
-    "minMaxTargetPolApr": [1, 1.23]
+    "minMaxTargetPolApr": [1, 1.23],
+    "points": [10000000, "DROPLETS"],
+    "pointProgramUrl": "https://droplets.drop.money"
   }
 }
