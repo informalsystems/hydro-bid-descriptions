@@ -551,5 +551,5 @@
     "minMaxTargetPolApr": [30, 30],
     "points": [140000000, "PHOTONS"],
     "pointProgramUrl": "https://app.pryzm.zone/points/pryzm_photons_3"
-  },
+  }
 }
