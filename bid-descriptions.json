@@ -525,7 +525,7 @@
     "committeeComments": "Reviewed by Phil_RX on 26-Apr: The presented strategy offers interesting opportunities with limited risks. Contracts are audited which allows Hydro to apply the bootstrapping framework and support the project with an initial 10K ATOM injection. Assuming rising demand for deposits in the pool, the project may be able to request more in the future. Hydro LP deposits would then be subject to the 50% share (after deposit) cap in the pools.",
     "requestAmount": [[10000, "ATOM"]],
     "minMaxTargetPolApr": [0.05, 0.05],
-    "points": [250000, "INGOTS"],
+    "points": [375000, "INGOTS"],
     "pointProgramUrl": "https://ingots.amulet.finance/"
   },
   "47": {
