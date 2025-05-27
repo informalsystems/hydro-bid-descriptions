@@ -595,7 +595,7 @@
     "projectUrl": "https://nept.finance/",
     "committeeComments": "Reviewed by Phil_RX on 26-May: The project currently holds approximately 30K ATOMs in deposits. To prevent disrupting natural market dynamics and an excessive dilution of rewards, we propose a bid limit set at 50% of overall shares, similar to other participants. Based on these figures, the liquidity deployment will be capped to 30K ATOMs. As protocol utilization increases, we can consider introducing larger tranches in future bidding rounds.",
     "requestAmount": [[20000, "ATOM"]],
-    "minMaxTargetPolApr": [2.1, 7.5],
+    "minMaxTargetPolApr": [2.1, 7.5]
   },
   "53": {
     "title": "Amulet: amATOM/ATOM LST LPs on Astroport",
