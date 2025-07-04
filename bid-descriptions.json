@@ -741,7 +741,8 @@
     "projectUrl": "https://elys.network/",
     "committeeComments": "Reviewed by PhilRX on 30-June-2025: Despite Elys shielded pools offering reduced risk, impermanent loss potential remains for Hydro since it must withdraw liquidity at the end of the deployment. If the pool is unbalanced, Hydro would take an immediate loss. In order to prevent this, we recommend that Elys provides some collateral up front, which would be used to make Hydro’s position whole in the event of a loss. Our recommendation is a minimum 20% collateral in the form of USDC or ATOM. The Hydro team has agreed to cover any losses over 10% for this pilot test, so 10% collateral will be deposited by the Elys team into the Hydro committee DAO, with the Hydro treasury making up for any losses over 10%. Elys’ collateral will only be used to make up for losses, and the remainder (if any) will be returned to Elys at the end of the deployment.",
     "requestAmount": [[15000, "ATOM"]],
-    "minMaxTargetPolApr": [37, 37]
+    "minMaxTargetPolApr": [37, 37],
+    "atomic_bid_pair": 66
   },
   "66": {
     "title": "Elys: USDC for ATOM/USDC LP",
@@ -752,6 +753,7 @@
     "projectUrl": "https://elys.network/",
     "committeeComments": "Note: This bid is one of two atomic bids, and the review has been posted in the bid ATOM here.",
     "requestAmount": [[40000, "USDC"]],
-    "minMaxTargetPolApr": [37, 37]
+    "minMaxTargetPolApr": [37, 37],
+    "atomic_bid_pair": 65
 }
 }
