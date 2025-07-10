@@ -400,7 +400,7 @@
     "points": [2000000, "DROPLETS"],
     "pointProgramUrl": "https://droplets.drop.money"
   },
-    "36": {
+  "36": {
     "title": "Drop: dATOM/ATOM LP on Osmosis",
     "projectLogoUrl": "/images/logo-drop.png",
     "aboutProject": "Drop is a liquid staking protocol for Interchain assets and a member of the Lido Alliance. Built on Neutron, Drop's smart contract architecture uses the IBC protocol and Neutron’s ICTX and ICQ modules to provide liquid staking services and scale with minimal overhead and risk. Drop’s architecture consists of CosmWasm contracts controlling the flow of assets between multiple blockchains using IBC, ICTX, and ICQ. Upon receipt of supported assets, the protocol mints liquid staking receipt tokens (called dAssets) using the Token Factory standard.",
@@ -413,7 +413,7 @@
     "points": [6000000, "DROPLETS"],
     "pointProgramUrl": "https://droplets.drop.money"
   },
-    "37": {
+  "37": {
     "title": "Drop: dATOM/stATOM LP on Magma",
     "projectLogoUrl": "/images/logo-drop.png",
     "aboutProject": "Drop is a liquid staking protocol for Interchain assets and a member of the Lido Alliance. Built on Neutron, Drop's smart contract architecture uses the IBC protocol and Neutron’s ICTX and ICQ modules to provide liquid staking services and scale with minimal overhead and risk. Drop’s architecture consists of CosmWasm contracts controlling the flow of assets between multiple blockchains using IBC, ICTX, and ICQ. Upon receipt of supported assets, the protocol mints liquid staking receipt tokens (called dAssets) using the Token Factory standard.",
@@ -426,7 +426,7 @@
     "points": [2000000, "DROPLETS"],
     "pointProgramUrl": "https://droplets.drop.money"
   },
-    "38": {
+  "38": {
     "title": "Drop: dATOM/ATOM LP on Astroport",
     "projectLogoUrl": "/images/logo-drop.png",
     "aboutProject": "Drop is a liquid staking protocol for Interchain assets and a member of the Lido Alliance. Built on Neutron, Drop's smart contract architecture uses the IBC protocol and Neutron’s ICTX and ICQ modules to provide liquid staking services and scale with minimal overhead and risk. Drop’s architecture consists of CosmWasm contracts controlling the flow of assets between multiple blockchains using IBC, ICTX, and ICQ. Upon receipt of supported assets, the protocol mints liquid staking receipt tokens (called dAssets) using the Token Factory standard.",
@@ -755,7 +755,7 @@
     "requestAmount": [[40000, "USDC"]],
     "minMaxTargetPolApr": [37, 37],
     "atomic_bid_pair": 65
-},
+  },
   "67": {
     "title": "UX: ATOM Lending Liquidity",
     "projectLogoUrl": "/images/logo-ux.png",
@@ -766,7 +766,7 @@
     "committeeComments": "Reviewed by PhilRX on 4-July-2025: This deployment is subject to the 50% participation cap that the Hydro committee sets for all lending protocols. The amount Hydro can deposit will be limited to the amount of liquidity in the pool at the time of deployment. Currently this is 32,000 ATOM, but this may change between now and the time of deployment. The committee may also reassess the pool on a monthly basis throughout the 3 month deployment, and decrease Hydro's position if necessary. The committee is also aware that the UX chain enforces governance-controlled IBC rate limits. If these limits are reached, withdrawal of the liquidity will be staggered over time.",
     "requestAmount": [[50000, "ATOM"]],
     "minMaxTargetPolApr": [6, 6]
-},
+  },
   "68": {
     "title": "Nolus: ATOM Lending Liquidity",
     "projectLogoUrl": "/images/logo-nolus.png",
