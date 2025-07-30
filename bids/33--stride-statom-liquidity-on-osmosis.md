@@ -1,18 +1,22 @@
 ---
-title: "Stride: stATOM Liquidity on Osmosis"
-projectLogoUrl: "/images/logo-stride.png"
-projectUrl: "https://www.stride.zone/"
-requestAmount: [[100000,"ATOM"]]
-minMaxTargetPolApr: [1,5]
+title: 'Stride: stATOM Liquidity on Osmosis'
+projectLogoUrl: '/images/logo-stride.png'
+projectName: 'Stride'
+projectUrl: 'https://www.stride.zone/'
+requestAmount: [[100000, 'ATOM']]
+minMaxTargetPolApr: [1, 5]
 ---
 
 # About the Project
 
 Stride is the largest liquid staking provider in the Cosmos ecosystem.
+
 Stride handles liquid staking operations on its own sovereign appchain, secured by the Cosmos Hub via Interchain Security.
 
 Stride LSTs allow users to unlock the full value of their staked assets.
+
 By staking with Stride, stakers receive a fungible token (stToken) that allows them to use their assets in DeFi while simultaneously earning staking rewards.
+
 This innovative feature makes Stride LSTs some of the most prominent and compelling collateral assets in the Cosmos ecosystem, with over $40 million in TVL deployed across DeFi protocols in Cosmos and beyond.
 
 # Bid Description
@@ -49,12 +53,11 @@ Pool address: `osmo1z0j6zm4ndmwl27kekla8un73nfu8rh5dhfg2957yr0kg3uumd9rs9sv5kq`
 
 The concentrated liquidity range is to be set as follows:
 
-* Upper bound: 10% above the stATOM redemption rate at the time the position is deployed
-* Lower bound: 5% below the stATOM redemption rate at the time the position is deployed
+- Upper bound: 10% above the stATOM redemption rate at the time the position is deployed
+- Lower bound: 5% below the stATOM redemption rate at the time the position is deployed
 
 Our deployment example transactions can be viewed [here](https://hackmd.io/@XcVbaDPzSDaZ2crWZ2_smw/r1I5-pROJl).
 
 # Committee Review
 
 For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 50% of the pool. If this threshold is reached, the committee will periodically review the allocation, making adjustments by adding or removing liquidity as needed to maintain the target balance.
-

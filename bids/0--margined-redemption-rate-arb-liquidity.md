@@ -1,9 +1,10 @@
 ---
-title: 'Margined Redemption Rate Arb Liquidity'
-projectLogoUrl: '/images/logo-margined.png'
-projectUrl: 'https://www.margined.io/'
-requestAmount: [[50000, 'ATOM']]
+title: Margined Redemption Rate Arb Liquidity
+projectLogoUrl: /images/logo-margined.png
+projectUrl: https://www.margined.io/
+requestAmount: [[50000, "ATOM"]]
 minMaxTargetPolApr: [0, 0]
+projectName: Margined
 ---
 
 # Bid Description
@@ -36,7 +37,7 @@ The Margined code is open-source and is available [here](https://github.com/marg
 ## Deployment
 
 - **Osmosis ATOM Redemption Rate Arbitrage Vault**: osmo1hvl5kj4xzdj4udxjv2dzk2zfqhzkd9afqygwq3t84tn53e0250zqrltj48
-- **Neutron ATOM Redemption Rate Arbitrage Vault**: **neutron1puedrclm6rn33x3zv66xg6m23qcdagayqua6jj2wqzvfznlqef8qe53wr2**
+- **Neutron ATOM Redemption Rate Arbitrage Vault**: `neutron1puedrclm6rn33x3zv66xg6m23qcdagayqua6jj2wqzvfznlqef8qe53wr2`
 
 # Committee Review
 

@@ -1,9 +1,10 @@
 ---
-title: "Mars: ATOM Liquidity Lending"
-projectLogoUrl: "/images/logo-mars.png"
-projectUrl: "https://marsprotocol.io"
-requestAmount: [[150000,"ATOM"]]
-minMaxTargetPolApr: [8,9]
+title: 'Mars: ATOM Liquidity Lending'
+projectLogoUrl: '/images/logo-mars.png'
+projectUrl: 'https://marsprotocol.io'
+projectName: 'Mars Protocol'
+requestAmount: [[150000, 'ATOM']]
+minMaxTargetPolApr: [8, 9]
 ---
 
 # About the Project
@@ -13,32 +14,38 @@ Mars Protocol is a DeFi credit and trading platform designed to unlock capital e
 # Bid Description
 
 ## Use Case
+
 This proposal seeks to leverage ATOM from Hydro to enhance liquidity within Mars Protocol's lending pools on Neutron. By increasing ATOM liquidity, Mars will attract borrower demand, reduce borrowing rates, and support DeFi products that require ATOM as collateral. The borrowed ATOM will power the following initiatives:
 
-* **Leveraged Staking Vaults:** Enable users to deposit liquid staking tokens (e.g., dATOM or stATOM) to borrow ATOM, restake, and repeat, creating a compounding effect. This strategy enhances returns for LST holders and bolsters adoption of liquid staking across Cosmos.
-* **Single-Sided LP Vaults:** Provide automated strategies for single-sided liquidity provisioning with hedging capabilities via Mars Perps, enabling Cosmos Hub to supply liquidity without exposure to price fluctuations of paired assets.
-* **Delta-Neutral Strategies:** Build automated vaults to optimize LPing returns while hedging against market volatility, driving deeper liquidity and higher trading volumes.
+- **Leveraged Staking Vaults:** Enable users to deposit liquid staking tokens (e.g., dATOM or stATOM) to borrow ATOM, restake, and repeat, creating a compounding effect. This strategy enhances returns for LST holders and bolsters adoption of liquid staking across Cosmos.
+- **Single-Sided LP Vaults:** Provide automated strategies for single-sided liquidity provisioning with hedging capabilities via Mars Perps, enabling Cosmos Hub to supply liquidity without exposure to price fluctuations of paired assets.
+- **Delta-Neutral Strategies:** Build automated vaults to optimize LPing returns while hedging against market volatility, driving deeper liquidity and higher trading volumes.
 
 These strategies are modeled after successful DeFi use cases on Ethereum, aiming to establish Mars Protocol as a key player in ATOM-based DeFi.
 
 ## Duration, Tribute, Yield & Target
+
 The tribute will be paid in MARS. The PoL target is 150k ATOM and the expected APR is 8-9% (ATOM lending APY). The deployment duration will be 3 months.
 
 ## Risk Mitigation
+
 **Overcollateralization:** Lending on Mars Protocol is overcollateralized, minimizing the risk of default. Borrowers are required to maintain a collateralization ratio above the protocol-defined thresholds.
 **Liquidity Caps:** Lending caps ensure sustainable usage of funds.
 
 ## Security
+
 Mars Protocol's contracts have undergone rigorous [audits](https://github.com/mars-protocol/mars-audits) by industry-leading firms. dATOM (Drop) is audited by OAK Security, and Mars V2 Perps and lending systems are open-source and fully transparent.
 
 Emergency security contact has been provided to the Hydro committee.
 
 ## Monitoring
+
 All positions can be monitored via [Mars Protocol's Red Bank UI](https://app.marsprotocol.io/earn). Borrowing rates, utilization, and performance metrics will be transparently reported. Additional liquidity metrics for LSTs can be tracked on Neutron and Astroport dashboards.
 
 Our venue queries can be viewed here.
 
 ## Deployment
+
 Liquidity to be deployed to:
 
 [https://daodao.zone/dao/neutron10xwzc88kefwtlup9c2tmw4mj4ng7u79g8lsapp0c9jc02xt247zqwzzghf/apps?url=https%3A%2F%2Fapp.marsprotocol.io](https://daodao.zone/dao/neutron10xwzc88kefwtlup9c2tmw4mj4ng7u79g8lsapp0c9jc02xt247zqwzzghf/apps?url=https%3A%2F%2Fapp.marsprotocol.io) and it should load the Mars app and you could see in that CA # 403 there is ~203,840 ATOM deposited into Mars
@@ -50,4 +57,3 @@ Liquidity to be deployed to:
 # Committee Review
 
 Reviewed by PhilRX on 13-June-2025: Based on the current utilization rate and existing deposits (roughly 200K ATOMs), we adjusted the bid cap down to 200,000 ATOMs. This is according to the committee rule to limit lending protocol deposits to 50% participation rate (after deposit). As the bid request is only 150,000 ATOMs, the committee can deploy the entire amount, assuming a successful bid.
-

@@ -1,6 +1,7 @@
 ---
 title: 'Elys: ATOM for ATOM/USDC LP'
 projectLogoUrl: '/images/logo-elys.png'
+projectName: 'Elys Network'
 projectUrl: 'https://elys.network/'
 requestAmount: [[10000, 'ATOM']]
 minMaxTargetPolApr: [28.6, 28.6]
@@ -32,22 +33,29 @@ The Elys Network source code is open-source and can be found [here](https://gith
 ## Monitoring
 
 The committee may monitor the position using the Elys Network UI [here](https://app.elys.network/earn/mining#liquidity-positions).
+
 To get the ATOM position value in the ATOM/USDC pool, you can query all commitments and find the denom for the AMM pool ID 1. Use this CLI query:
 
 ```
+
 elysd q commitment show-commitments <user_address>
+
 ```
 
 Or using the REST API:
 
 ```
+
 curl -X GET "https://api.elys.network/elys-network/elys/commitment/show_commitments/<user_address>" -H "accept: application/json"
+
 ```
 
 This share is expressed in 10\*\*18 units and it's the share of the pool. It can be multiplied by the LP token price to understand the USD position value. Pool LP token price can be found in query:
 
 ```
+
 elysd q amm show-pool 1 --node https://rpc.elys.network
+
 ```
 
 Performance can also be viewed via the [Elys Network block explorer](https://mainnet.itrocket.net/elys/), by searching for the Hydro wallet address.
@@ -55,16 +63,18 @@ Performance can also be viewed via the [Elys Network block explorer](https://mai
 ## Deployment
 
 Liquidity to be deployed to the ATOM/USDC liquidity pool on Elys Network (Pool ID #1).
+
 Our example transactions can be viewed [here](https://elysscan.io/tx/4571dc37bb36b979edca77becbe49ad0a20f84f9c560fa9bccc18eba81bf0db2).
 
 ## Security Review
 
 Reviewed by Arlai on 3-June-2025: Based on the security review of Elys Network's USDC lending opportunity, this presents a MODERATE RISK opportunity for Hydro liquidity provision. Primary concerns include outdated audit coverage given code complexity, extensive codebase modifications, and illiquid reward structure.
-| **Category** | **Details** |
-|--------------|-------------|
-| **Audits** | The most recent audit was conducted by Halborn in February 2024, 16 months ago. According to the report, all identified issues were resolved by the development team. |
-| **Security Concerns** | Significant changes have been made to the protocol’s core lending functionality since the last audit, and these updates have not yet been independently reviewed. |
-| **Economic Risks** | Only a small portion of rewards are distributed in transferable USDC. The majority are paid in EDEN tokens, which require a three-month redemption period to convert into transferable ELYS. |
+
+| **Category**          | **Details**                                                                                                                                                                                  |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Audits**            | The most recent audit was conducted by Halborn in February 2024, 16 months ago. According to the report, all identified issues were resolved by the development team.                        |
+| **Security Concerns** | Significant changes have been made to the protocol’s core lending functionality since the last audit, and these updates have not yet been independently reviewed.                            |
+| **Economic Risks**    | Only a small portion of rewards are distributed in transferable USDC. The majority are paid in EDEN tokens, which require a three-month redemption period to convert into transferable ELYS. |
 
 # Committee Review
 

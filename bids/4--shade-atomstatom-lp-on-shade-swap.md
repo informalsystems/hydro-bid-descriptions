@@ -1,9 +1,10 @@
 ---
-title: "Shade ATOM/stATOM LP on Shade Swap"
-projectLogoUrl: "/images/logo-shade.png"
-projectUrl: "https://shadeprotocol.io"
-requestAmount: [[10000,"ATOM"]]
-minMaxTargetPolApr: [0,0]
+title: Shade ATOM/stATOM LP on Shade Swap
+projectLogoUrl: /images/logo-shade.png
+projectUrl: https://shadeprotocol.io
+requestAmount: [[10000, "ATOM"]]
+minMaxTargetPolApr: [0, 0]
+projectName: Shade Protocol
 ---
 
 # Bid Description
@@ -28,12 +29,11 @@ LP Bid Limitation: LPing will be subject to cap the bid at 33% of total existing
 
 The Shade Protocol code is open-source and is available [here](https://github.com/securesecrets/shade). The current on-chain code is audited by Certic and can be found [here](https://skynet.certik.com/projects/shade-protocol). The documentation for the Shade protocol can be found [here](https://docs.shadeprotocol.io/shade-protocol). Emergency security contact has been provided to the hydro committee.
 
-### Deployment
+## Deployment
 
-- **Secret1a65a9xgqrlsgdszqjtxhz069pgsh8h4a83hwt0**  
+- `Secret1a65a9xgqrlsgdszqjtxhz069pgsh8h4a83hwt0`
 - ATOM/stATOM pool
 
 # Committee Review
 
 The 33% cap is in place for the LP, The committee deems this bid safe, with a proper risk mitigation strategy in place. The ATOM/stATOM LP's have a very low Impermanent loss risk.
-

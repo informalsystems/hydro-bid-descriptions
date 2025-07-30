@@ -1,9 +1,10 @@
 ---
-title: "Margined Redemption Rate Arb Liquidity"
-projectLogoUrl: "/images/logo-margined.png"
-projectUrl: "https://www.margined.io/"
-requestAmount: [[50000,"ATOM"]]
-minMaxTargetPolApr: [0,0]
+title: Margined Redemption Rate Arb Liquidity
+projectLogoUrl: /images/logo-margined.png
+projectUrl: https://www.margined.io/
+projectName: Margined
+requestAmount: [[50000, "ATOM"]]
+minMaxTargetPolApr: [0, 0]
 ---
 
 # About the Project
@@ -17,18 +18,23 @@ Having successfully deployed multiple public and private strategies across the c
 ## Use case
 
 Redemption Rate Arbitrage and LPing in stATOM<->ATOM Pool.
+
 The liquidity would be deposited in [vaults](https://trade.margined.io/vaults/atom-redemption-rate) and then the liquidity would arbitrage LSDs including stATOM, dATOM, and qATOM.
+
 Liquidity will be deposited into two vaults.
 
 ## Duration, Tribute, Yield & Target
 
 The tribute will be paid in USDC.
+
 The PoL target is 50,000 ATOM.
 
 The deployment duration will be 3 months
 
 The vaults are projected to earn:
+
 Osmosis ATOM: discount 1.13% APR (estimate): 23.65%
+
 Neutron ATOM: discount 0.42% APR (estimate): 8.73%
 
 ## Risk mitigation and Security
@@ -36,27 +42,33 @@ Neutron ATOM: discount 0.42% APR (estimate): 8.73%
 LP Bid Limitation: LPing will be subject to cap the bid at 33% of total existing deposits, we will monitor future deposits to the LP.
 
 The Margined code is open-source and is available [here](https://github.com/margined-protocol),
+
 the current on-chain code is not audited.
+
 The documentation for the Margined protocol can be found [here](https://docs.margined.io/).
+
 Emergency security contact has been provided to the hydro committee.
 
 ## Monitoring
 
 The committee may monitor the position by navigating to [https://trade.margined.io/vaults](https://trade.margined.io/vaults)
+
 and selecting the appropriate vault (Neutron ATOM / Osmosis ATOM).
+
 This will display assets held by the account and give projected performance.
 
 ## Deployment
 
 Osmosis ATOM Redemption Rate Arbitrage Vault
+
 osmo1hvl5kj4xzdj4udxjv2dzk2zfqhzkd9afqygwq3t84tn53e0250zqrltj48
 
 Neutron ATOM Redemption Rate Arbitrage Vault
+
 neutron1puedrclm6rn33x3zv66xg6m23qcdagayqua6jj2wqzvfznlqef8qe53wr2
 
 # Committee Review
 
-In the arbitrage strategy, we recommended limiting the tranche to 50,000 Atoms. Any proposition beyond that would likely hinder the profit factor. 
+In the arbitrage strategy, we recommended limiting the tranche to 50,000 Atoms. Any proposition beyond that would likely hinder the profit factor.
 
 In the LPing strategy, we required the project to bootstrap the pool first as the whitelisted allocation for Hydro will be sized to a maximum 33% of that pool's deposits. The Margined team didn't perform any security audits on their public on-chain code.
-

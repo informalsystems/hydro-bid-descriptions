@@ -1,9 +1,10 @@
 ---
-title: "Mars: ATOM Liquidity Lending"
-projectLogoUrl: "/images/logo-mars.png"
-projectUrl: "https://marsprotocol.io"
-requestAmount: [[150000,"ATOM"]]
-minMaxTargetPolApr: [6,7]
+title: 'Mars: ATOM Liquidity Lending'
+projectLogoUrl: /images/logo-mars.png
+projectUrl: https://marsprotocol.io
+requestAmount: [[150000, "ATOM"]]
+minMaxTargetPolApr: [6, 7]
+projectName: Mars Protocol
 ---
 
 # About the Project
@@ -16,9 +17,9 @@ Mars Protocol is a DeFi credit and trading platform designed to unlock capital e
 
 This proposal seeks to leverage ATOM from Hydro to enhance liquidity within Mars Protocol's lending pools on Neutron. By increasing ATOM liquidity, Mars will attract borrower demand, reduce borrowing rates, and support DeFi products that require ATOM as collateral. The borrowed ATOM will power the following initiatives:
 
-* **Leveraged Staking Vaults:** Enable users to deposit liquid staking tokens (e.g., dATOM or stATOM) to borrow ATOM, restake, and repeat, creating a compounding effect. This strategy enhances returns for LST holders and bolsters adoption of liquid staking across Cosmos.
-* **Single-Sided LP Vaults:** Provide automated strategies for single-sided liquidity provisioning with hedging capabilities via Mars Perps, enabling Cosmos Hub to supply liquidity without exposure to price fluctuations of paired assets.
-* **Delta-Neutral Strategies:** Build automated vaults to optimize LPing returns while hedging against market volatility, driving deeper liquidity and higher trading volumes.
+- **Leveraged Staking Vaults:** Enable users to deposit liquid staking tokens (e.g., dATOM or stATOM) to borrow ATOM, restake, and repeat, creating a compounding effect. This strategy enhances returns for LST holders and bolsters adoption of liquid staking across Cosmos.
+- **Single-Sided LP Vaults:** Provide automated strategies for single-sided liquidity provisioning with hedging capabilities via Mars Perps, enabling Cosmos Hub to supply liquidity without exposure to price fluctuations of paired assets.
+- **Delta-Neutral Strategies:** Build automated vaults to optimize LPing returns while hedging against market volatility, driving deeper liquidity and higher trading volumes.
 
 These strategies are modeled after successful DeFi use cases on Ethereum, aiming to establish Mars Protocol as a key player in ATOM-based DeFi.
 
@@ -57,4 +58,3 @@ Liquidity to be deployed to:
 # Committee Review
 
 Reviewed by PhilRX on 22-April-2025: Based on the current utilization rate and existing deposits (375K ATOMs), we recommend maintaining the previous bid cap set at 400,000 ATOMs. This is according to the committee rule to limit lending protocol deposits to 50% participation rate (after deposit). The committee will deploy liquidity up to this cap, while any excess liquidity will remain on standby. The committee will gradually introduce this reserve as utilization levels increase.
-

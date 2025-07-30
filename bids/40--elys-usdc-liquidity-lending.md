@@ -1,9 +1,10 @@
 ---
-title: "Elys: USDC Liquidity Lending"
-projectLogoUrl: "/images/logo-elys.png"
-projectUrl: "https://elys.network/"
-requestAmount: [[28500,"USDC"]]
-minMaxTargetPolApr: [45.5,45.5]
+title: 'Elys: USDC Liquidity Lending'
+projectLogoUrl: '/images/logo-elys.png'
+projectName: 'Elys Network'
+projectUrl: 'https://elys.network/'
+requestAmount: [[28500, 'USDC']]
+minMaxTargetPolApr: [45.5, 45.5]
 ---
 
 # About the Project
@@ -51,4 +52,3 @@ Our example transactions can be viewed [here](https://elysscan.io/tx/4571dc37bb3
 # Committee Review
 
 Regarding the new leveraged LP mechanism, the committee has reviewed the project's overall risk structure and determined it is acceptable for inclusion within Hydro's facility. As with any standard lending facility program within Hydro, the mechanism will be limited to a 50% weight in the lending pool (post-deposit). Based on the current pool deposits (approximately $50,000), the requested amount can be fully deployed, provided the bid is successful.
-

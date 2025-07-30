@@ -1,9 +1,10 @@
 ---
-title: "Stride: stATOM Liquidity on Osmosis"
-projectLogoUrl: "/images/logo-stride.png"
-projectUrl: "https://www.stride.zone/"
-requestAmount: [[100000,"ATOM"]]
-minMaxTargetPolApr: [1,5]
+title: 'Stride: stATOM Liquidity on Osmosis'
+projectLogoUrl: /images/logo-stride.png
+projectUrl: https://www.stride.zone/
+requestAmount: [[100000, "ATOM"]]
+minMaxTargetPolApr: [1, 5]
+projectName: Stride
 ---
 
 # About the Project
@@ -40,18 +41,17 @@ Our venue queries can be viewed [here](https://hackmd.io/@XcVbaDPzSDaZ2crWZ2_smw
 
 ## Deployment
 
-Liquidity to be deployed to the stATOM / ATOM concentrated liquidity pool on Osmosis (Pool ID: 1283).  
+Liquidity to be deployed to the stATOM / ATOM concentrated liquidity pool on Osmosis (Pool ID: 1283).
 
 Pool address: osmo1z0j6zm4ndmwl27kekla8un73nfu8rh5dhfg2957yr0kg3uumd9rs9sv5kq
 
 The concentrated liquidity range is to be set as follows:
 
-* Upper bound: 10% above the stATOM redemption rate at the time the position is deployed
-* Lower bound: 5% below the stATOM redemption rate at the time the position is deployed
+- Upper bound: 10% above the stATOM redemption rate at the time the position is deployed
+- Lower bound: 5% below the stATOM redemption rate at the time the position is deployed
 
 Our deployment example transactions can be viewed [here](https://hackmd.io/@XcVbaDPzSDaZ2crWZ2_smw/r1I5-pROJl).
 
 # Committee Review
 
 For the Osmosis LP deployment, the requested amount will proceed under the condition that Hydro's share does not exceed 50% of the pool. If this threshold is reached, the committee will periodically review the allocation, adjusting by adding or removing liquidity to maintain the target balance.
-

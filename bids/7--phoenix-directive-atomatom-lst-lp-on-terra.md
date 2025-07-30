@@ -1,16 +1,17 @@
 ---
-title: "Phoenix Directive ATOM/ATOM-LST LP on Terra"
-projectLogoUrl: "/images/logo-phoenix-directive.png"
-projectUrl: "https://x.com/phoenix_dir"
-requestAmount: [[25000,"ATOM"]]
-minMaxTargetPolApr: [0,0]
+title: Phoenix Directive ATOM/ATOM-LST LP on Terra
+projectLogoUrl: /images/logo-phoenix-directive.png
+projectUrl: https://x.com/phoenix_dir
+requestAmount: [[25000, "ATOM"]]
+minMaxTargetPolApr: [0, 0]
+projectName: Phoenix Directive
 ---
 
 # About the Project
 
-Phoenix Directive and Phoenix Foundation were recently established by the Terra community with the responsibility to take over chain management & development responsibilities from TFL. Central to this is continuing to maintain and enhance Terra's core chain operations, system stability, and quality engineering development. This transition, along with the establishment and funding of the Phoenix Treasury is now complete. Phoenix Directive is also leading development and support initiatives with Terra's communities & projects. Our current focus is  building out an ecosystem of DeFi applications, growing our active user community, and establishing strong partnerships and integrations throughout Cosmos.
+Phoenix Directive and Phoenix Foundation were recently established by the Terra community with the responsibility to take over chain management & development responsibilities from TFL. Central to this is continuing to maintain and enhance Terra's core chain operations, system stability, and quality engineering development. This transition, along with the establishment and funding of the Phoenix Treasury is now complete. Phoenix Directive is also leading development and support initiatives with Terra's communities & projects. Our current focus is building out an ecosystem of DeFi applications, growing our active user community, and establishing strong partnerships and integrations throughout Cosmos.
 
- Terra's Liquidity Alliance (LA) is the first initiative of Phoenix Directive. Liquidity Alliance is an advanced ve [3,3] mechanism DeFi protocol that converts staking rewards into incentives used for liquidity providers and voters to create a positive liquidity feedback loop. Powered by the Alliance SDK, it enables the development of deep liquidity for tokens and projects on Terra and is a foundational project for Terra's future growth. Launched only  2 months ago, Liquidity Alliance has achieved a TVL of $3-4m while offering annual rewards targeted at $4-5m (currently ~$2.4m). 
+Terra's Liquidity Alliance (LA) is the first initiative of Phoenix Directive. Liquidity Alliance is an advanced ve [3,3] mechanism DeFi protocol that converts staking rewards into incentives used for liquidity providers and voters to create a positive liquidity feedback loop. Powered by the Alliance SDK, it enables the development of deep liquidity for tokens and projects on Terra and is a foundational project for Terra's future growth. Launched only 2 months ago, Liquidity Alliance has achieved a TVL of $3-4m while offering annual rewards targeted at $4-5m (currently ~$2.4m).
 
 # Bid Description
 
@@ -67,4 +68,3 @@ Liquidity Alliance: Liquidity Alliance from ERIS has been audited and can be fou
 # Committee Review
 
 The Hydro committee will gradually allocate the 25,000 ATOM, ensuring Hydro's participation stays below 33% of total LP shares. As Terra's Liquidity Alliance boosts pool liquidity with incentives over time, Hydro's committee should monitor and adjust allocations proportionally. Should Hydro's share exceed 50%, the committee will reassess and reduce its position to align with the 33% target
-

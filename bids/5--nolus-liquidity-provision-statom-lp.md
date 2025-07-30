@@ -1,9 +1,10 @@
 ---
-title: "Nolus Liquidity Provision stATOM LP"
-projectLogoUrl: "/images/logo-nolus.png"
-projectUrl: "https://nolus.io/"
-requestAmount: [[5000,"ATOM"]]
-minMaxTargetPolApr: [0,0]
+title: Nolus Liquidity Provision stATOM LP
+projectLogoUrl: /images/logo-nolus.png
+projectUrl: https://nolus.io/
+requestAmount: [[5000, "ATOM"]]
+minMaxTargetPolApr: [0, 0]
+projectName: Nolus Protocol
 ---
 
 # Bid Description
@@ -35,4 +36,3 @@ The Nolus Protocol code is open-source and is available [here](https://github.co
 # Committee Review
 
 The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having in place a cap of 60% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports.
-

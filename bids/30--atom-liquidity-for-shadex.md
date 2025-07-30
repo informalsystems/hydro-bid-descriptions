@@ -1,9 +1,10 @@
 ---
-title: "ATOM Liquidity for ShadeX"
-projectLogoUrl: "/images/logo-shade.png"
-projectUrl: "https://app.shadeprotocol.io/lend"
-requestAmount: [[10000,"ATOM"]]
-minMaxTargetPolApr: [2.7,11.1]
+title: ATOM Liquidity for ShadeX
+projectLogoUrl: /images/logo-shade.png
+projectUrl: https://app.shadeprotocol.io/lend
+requestAmount: [[10000, 'ATOM']]
+minMaxTargetPolApr: [2.7, 11.1]
+projectName: Shade Protocol - ShadeX
 ---
 
 # About the Project
@@ -50,6 +51,7 @@ Tx hash for lending ATOM on ShadeX: [https://secretnodes.com/secret/transactions
 
 Execute Msg for ATOM SNIP20, where msg is Base64 encoded:
 
+```json
 {
   "send": {
     "recipient": "secret17xjvdnhxult4a0epa88cqyp8mh9z2y7jrlwkud",
@@ -59,8 +61,8 @@ Execute Msg for ATOM SNIP20, where msg is Base64 encoded:
     "padding": "TMWzfPRbLx2"
   }
 }
+```
 
 # Committee Review
 
 The proposed bid appears to present no significant risks, provided that the audits have been conducted in accordance with required standards. To align with Hydro's early-stage protocol standards, the liquidation engine must operate with a Loan-to-Value (LTV) cap of approximately 66% for lending facilities. This precautionary measure ensures stability and mitigates risk during the initial phase. The LTV cap will be gradually lifted as liquidity conditions within the Cosmos ecosystem improve. The requested bid amount falls below the bootstrap framework's cap of 10,000 ATOMs. As such, the committee can approve the full amount, assuming the bid is successful.
-

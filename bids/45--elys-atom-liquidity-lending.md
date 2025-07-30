@@ -1,9 +1,10 @@
 ---
-title: "Elys: ATOM Liquidity Lending"
-projectLogoUrl: "/images/logo-elys.png"
-projectUrl: "https://elys.network/"
-requestAmount: [[100000,"ATOM"]]
-minMaxTargetPolApr: [46.8,46.8]
+title: 'Elys: ATOM Liquidity Lending'
+projectLogoUrl: /images/logo-elys.png
+projectUrl: https://elys.network/
+requestAmount: [[100000, "ATOM"]]
+minMaxTargetPolApr: [46.8, 46.8]
+projectName: Elys Network
 ---
 
 # About the Project
@@ -51,4 +52,3 @@ An example transaction can be viewed [here](https://elysscan.io/tx/4571dc37bb36b
 # Committee Review
 
 Reviewed by Phil_RX on 26-Apr: As with any standard lending facility program within Hydro, the mechanism will be limited to a 50% weight in the lending pool (post-deposit). Based on the current pool deposits (approximately 2,150 ATOMs), the requested amount of 50,000 can't be deployed until substantial improvement to the current deposits. Anyhow, the project will still be eligible to receive a minimum of 10,000 ATOMs under the bootstrap framework, provided the bid is successful of course.
-

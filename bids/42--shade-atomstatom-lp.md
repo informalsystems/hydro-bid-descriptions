@@ -1,9 +1,9 @@
 ---
-title: "Shade: ATOM/stATOM LP"
-projectLogoUrl: "/images/logo-shade.png"
-projectUrl: "https://app.shadeprotocol.io/ "
-requestAmount: [[30000,"ATOM"]]
-minMaxTargetPolApr: [3.2,3.2]
+title: 'Shade: ATOM/stATOM LP'
+projectLogoUrl: '/images/logo-shade.png'
+projectUrl: 'https://app.shadeprotocol.io/ '
+requestAmount: [[30000, 'ATOM']]
+minMaxTargetPolApr: [3.2, 3.2]
 ---
 
 # About the Project
@@ -43,4 +43,3 @@ The SNIP20 contract address for stATOM is `secret155w9uxruypsltvqfygh5urghd5v0zc
 # Committee Review
 
 Reviewed by PhilRX on 21-April-2025: The LST pairing shows no risk of impermanent loss for the funds, the protocol is audited and therefore the bid is subject to the rule allowing the deployment of up to 25% of the circulating supply of stATOM (this cap is shared across the entire stATOM eligible bids). Assuming a successful bid, Hydro will be able to deploy the entire amount assuming the aforementioned rule is respected.
-

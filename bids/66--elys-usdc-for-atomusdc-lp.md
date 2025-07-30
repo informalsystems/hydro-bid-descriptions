@@ -1,10 +1,11 @@
 ---
 title: 'Elys: USDC for ATOM/USDC LP'
-projectLogoUrl: '/images/logo-elys.png'
-projectUrl: 'https://elys.network/'
-requestAmount: [[40000, 'USDC']]
+projectLogoUrl: /images/logo-elys.png
+projectUrl: https://elys.network/
+requestAmount: [[40000, "USDC"]]
 minMaxTargetPolApr: [37, 37]
 atomic_bid_pair: 65
+projectName: Elys Network
 ---
 
 # About the Project

@@ -1,9 +1,10 @@
 ---
-title: "Neptune x Drop: nATOM/dATOM LP on Injective"
-projectLogoUrl: "/images/logo-neptune.png"
-projectUrl: "https://nept.finance/"
-requestAmount: [[10000,"ATOM"]]
-minMaxTargetPolApr: [2.1,7.5]
+title: 'Neptune x Drop: nATOM/dATOM LP on Injective'
+projectLogoUrl: '/images/logo-neptune.png'
+projectName: 'Neptune Finance'
+projectUrl: 'https://nept.finance/'
+requestAmount: [[10000, 'ATOM']]
+minMaxTargetPolApr: [2.1, 7.5]
 ---
 
 # About the Project
@@ -36,7 +37,8 @@ The committee will also hold the nATOM receipt token for their deposit position 
 
 ## Security
 
-Oak Security has audited Neptune Finance; the audit can be found [here](https://github.com/oak-security/audit-reports/tree/master/Neptune).  
+Oak Security has audited Neptune Finance; the audit can be found [here](https://github.com/oak-security/audit-reports/tree/master/Neptune).
+
 Neptune's docs can be found [here](https://docs.nept.finance/).
 
 Emergency security contact has been provided to the Hydro committee.
@@ -49,17 +51,18 @@ Our venue queries can be viewed [here](https://hackmd.io/@jwEKz2IPTTqH3U9DC2aZ3A
 
 ## Deployment
 
-Neptune Money Market Contract:  
+Neptune Money Market Contract:
+
 Inj1nc7gjkf2mhp34a6gquhurg8qahnw5kxs5u3s4u
 
-Astroport nATOM/dATOM Contract:  
+Astroport nATOM/dATOM Contract:
+
 inj18ucwme9nyemev9cjhy6jtagtu4laxh7ztzeqqc
 
 Our deployment example transaction can be viewed [here](https://explorer.injective.network/transaction/50720C355D377BB175F4CDE7004CBF90453854D0DCDF37C5FEC240A112C84221/) and [here](https://explorer.injective.network/transaction/B0AFFB880DCAA2FAD22A0536D110F1D47D9C27DD26A8D4CEC74DB85615185D82/).
 
 # Committee Review
 
-The project currently holds approximately 30K ATOMs in deposits. To prevent disrupting natural market dynamics and an excessive dilution of rewards, we propose a bid limit set at 50% of overall shares, similar to other participants. Based on these figures, we recommend capping the liquidity deployment to 30K ATOMs. As protocol utilization increases, we can consider introducing larger tranches in future bidding rounds. 
+The project currently holds approximately 30K ATOMs in deposits. To prevent disrupting natural market dynamics and an excessive dilution of rewards, we propose a bid limit set at 50% of overall shares, similar to other participants. Based on these figures, we recommend capping the liquidity deployment to 30K ATOMs. As protocol utilization increases, we can consider introducing larger tranches in future bidding rounds.
 
 Regarding the nATOM/dATOM liquidity provision, the committee has agreed to set an initial cap of 10,000 ATOMs corresponding to this bid expectation due to the complex risk structure involved. It, therefore, allows for a quick deployment without extensively compromising community funds. This cap is temporarily set, waiting on a more thorough review by the committee, upon which the cap will be adjusted to allow the deposits to scale.
-

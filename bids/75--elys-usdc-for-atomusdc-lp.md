@@ -1,6 +1,7 @@
 ---
 title: 'Elys: USDC for ATOM/USDC LP'
 projectLogoUrl: '/images/logo-elys.png'
+projectName: 'Elys Network'
 projectUrl: 'https://elys.network/'
 requestAmount: [[50000, 'USDC']]
 minMaxTargetPolApr: [28.6, 28.6]
@@ -32,22 +33,29 @@ The Elys Network source code is open-source and can be found [here](https://gith
 ## Monitoring
 
 The committee may monitor the position using the Elys Network UI [here](https://app.elys.network/earn/mining#liquidity-positions).
+
 To get the USDC position value in the ATOM/USDC pool, you can query all commitments and find the denom for the AMM pool ID 1. Use this CLI query:
 
 ```
+
 elysd q commitment show-commitments <user_address>
+
 ```
 
 Or using the REST API:
 
 ```
+
 curl -X GET "https://api.elys.network/elys-network/elys/commitment/show_commitments/<user_address>" -H "accept: application/json"
+
 ```
 
 This share is expressed in 10\*\*18 units and it's the share of the pool. It can be multiplied by the LP token price to understand the USD position value. Pool LP token price can be found in query:
 
 ```
+
 elysd q amm show-pool 1 --node https://rpc.elys.network
+
 ```
 
 Performance can also be viewed via the [Elys Network block explorer](https://mainnet.itrocket.net/elys/), by searching for the Hydro wallet address.
@@ -55,6 +63,7 @@ Performance can also be viewed via the [Elys Network block explorer](https://mai
 ## Deployment
 
 Liquidity to be deployed to the ATOM/USDC liquidity pool on Elys Network (Pool ID 1).
+
 Our example transactions can be viewed [here](https://elysscan.io/tx/4571dc37bb36b979edca77becbe49ad0a20f84f9c560fa9bccc18eba81bf0db2).
 
 # Committee Review

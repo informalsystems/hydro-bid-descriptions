@@ -1,11 +1,11 @@
 ---
-title: "Drop: dATOM/stATOM LP on Magma"
-projectLogoUrl: "/images/logo-drop.png"
-projectUrl: "https://www.drop.money/"
-requestAmount: [[30000,"ATOM"]]
-minMaxTargetPolApr: [22.8,25]
-points: [15000000,"DROPLETS"]
-pointProgramUrl: "https://droplets.drop.money"
+title: 'Drop: dATOM/stATOM LP on Magma'
+projectLogoUrl: '/images/logo-drop.png'
+projectUrl: 'https://www.drop.money/'
+requestAmount: [[30000, 'ATOM']]
+minMaxTargetPolApr: [22.8, 25]
+points: [15000000, 'DROPLETS']
+pointProgramUrl: 'https://droplets.drop.money'
 ---
 
 # About the Project
@@ -24,11 +24,11 @@ The PoL target is 30,000 ATOM. The deployment duration will be 3 months. The cur
 
 The tribute will be paid in Droplets (point system), which will be converted into DROP tokens upon the TGE. In total, 100 Million DROP tokens will be distributed to the Droplets owners in proportion to their share of the overall Droplet amount. While it is impossible to predict the future value of Droplets accurately, here is useful information that may be relevant to Hydro voters:
 
-| % of the total token supply allocated to points | 10 to 20% of the total DROP supply will be distributed to Droplets holders |
-| :---: | :---: |
-| % of points provided to Hydro voters for this bid | 0.000975% (15M* points out of a total points supply of 14.92B** Droplets) |
+|  % of the total token supply allocated to points  |  10 to 20% of the total DROP supply will be distributed to Droplets holders  |
+| :-----------------------------------------------: | :--------------------------------------------------------------------------: |
+| % of points provided to Hydro voters for this bid | 0.000975% (15M\* points out of a total points supply of 14.92B\*\* Droplets) |
 
-*- This is the initial size of the tribute. **- The amount of Droplets is changing daily; the figures provided are accurate as of the bid submission date.
+\*- This is the initial size of the tribute. \*\*- The amount of Droplets is changing daily; the figures provided are accurate as of the bid submission date.
 
 For additional information on Droplets distribution, you can check out the [Unofficial Droplets Dashboards](https://dropletsdash.xyz/) built by the Drop community. The dashboards provide the number of addresses receiving Droplets and the total daily emission.
 
@@ -59,4 +59,3 @@ Example transactions for deployments can be found [here.](https://www.mintscan.i
 # Committee Review
 
 Reviewed by PhilRX on 23-April-2025: Assuming this bid is successful, requesting an amount eligible for the bootstrap framework allows Hydro to distribute the full amount.
-

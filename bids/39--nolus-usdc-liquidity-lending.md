@@ -1,9 +1,10 @@
 ---
-title: "Nolus: USDC Liquidity Lending"
-projectLogoUrl: "/images/logo-nolus.png"
-projectUrl: "https://nolus.io/"
-requestAmount: [[57500,"USDC"]]
-minMaxTargetPolApr: [16,16]
+title: 'Nolus: USDC Liquidity Lending'
+projectLogoUrl: /images/logo-nolus.png
+projectUrl: https://nolus.io/
+requestAmount: [[57500, "USDC"]]
+minMaxTargetPolApr: [16, 16]
+projectName: Nolus
 ---
 
 # About the Project
@@ -45,4 +46,3 @@ Our deployment example transactions can be viewed [here](https://hackmd.io/Vz5ts
 # Committee Review
 
 The single-sided asset liquidity pool design in Nolus protocol will not be subjected to impermanent loss. Having a cap of 60% Loan-to-Value (LTV) ratio follows the committee guidelines for liquidity exports. This deployment is subject to the 50% participation rate limitation applied to every lending protocol. Regarding the current deposits exceeding 1,500,000$, the requested amount can be deployed entirely, assuming a successful bid.
-

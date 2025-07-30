@@ -1,9 +1,10 @@
 ---
-title: 'White Whale ATOM LST Liquidity & Terra LP Alliance'
-projectLogoUrl: '/images/logo-white-whale.svg'
-projectUrl: 'https://app.whitewhale.money/'
-requestAmount: [[2000, 'ATOM']]
+title: White Whale ATOM LST Liquidity & Terra LP Alliance
+projectLogoUrl: /images/logo-white-whale.svg
+projectUrl: https://app.whitewhale.money/
+requestAmount: [[2000, "ATOM"]]
 minMaxTargetPolApr: [0, 0]
+projectName: White Whale
 ---
 
 # Bid Description
@@ -51,15 +52,19 @@ LPing will be subject to cap the bid at 33% of total existing deposits. The Whit
 The White Whale [Code](https://github.com/White-Whale-Defi-Platform/) and [Docs](https://docs.migaloo.zone/) On-chain code is audited and open-source. The audit report can be found [here](https://github.com/White-Whale-Defi-Platform/white-whale-docs/blob/ede53b6fc64668a5951375ff814076a85b0266cf/gitbook/smart-contracts/audits.md?plain=1#L4)
 
 The Eris Protocol [Code](https://github.com/erisprotocol) and [Docs](https://docs.erisprotocol.com/)
+
 On-chain code is audited and open-source. The audit report can be found [here](https://github.com/SCV-Security/PublicReports/tree/main/Eris%20Protocol)
+
 Emergency security contact has been provided to the Hydro committee.
 
 ## Deployment
 
 White Whale DEX Terra 2.0 dATOM<>ATOM LP Contract
+
 terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd
 
 Eris Protocol Terra Liquidity Alliance - Single Gauge Contract
+
 Terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6vg2he9d6z9rgslr4k7l
 
 # Committee Review
