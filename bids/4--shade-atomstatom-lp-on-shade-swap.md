@@ -28,7 +28,7 @@ LP Bid Limitation: LPing will be subject to cap the bid at 33% of total existing
 
 The Shade Protocol code is open-source and is available [here](https://github.com/securesecrets/shade). The current on-chain code is audited by Certic and can be found [here](https://skynet.certik.com/projects/shade-protocol). The documentation for the Shade protocol can be found [here](https://docs.shadeprotocol.io/shade-protocol). Emergency security contact has been provided to the hydro committee.
 
-###Deployment
+### Deployment
 
 - **Secret1a65a9xgqrlsgdszqjtxhz069pgsh8h4a83hwt0**  
 - ATOM/stATOM pool
