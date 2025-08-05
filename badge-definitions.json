@@ -1,0 +1,22 @@
+{
+  "first_time_bidder": {
+    "imageUrl": "/images/logo-amulet.png",
+    "tooltip": "This bid is from a first time bidder in Hydro! Show your support for them by voting on their bid."
+  },
+  "atomic_bid": {
+    "imageUrl": "/images/logo-elys.png",
+    "tooltip": "This bid is part of an atomic bid, where a bidder is requesting an export of not one asset, but a pair of two assets. Be aware that if either of the atomic bids fails to meet the threshold, both bids will fail, and rewards will not be paid out. This bid is paired with ${atomic_bid.title}"
+  },
+  "vortex": {
+    "imageUrl": "/images/logo-mars.png",
+    "tooltip": "This bid is vortex bid."
+  },
+  "riptide": {
+    "imageUrl": "/images/logo-nolus.png",
+    "tooltip": "This bid is riptide bid."
+  },
+  "highlighted_bid": {
+    "imageUrl": "/images/logo-stride.png",
+    "tooltip": "This bid is highlighted bid."
+  }
+}
