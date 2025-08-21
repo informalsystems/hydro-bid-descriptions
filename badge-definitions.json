@@ -1,19 +1,19 @@
 {
   "first_time_bidder": {
-    "imageUrl": "/images/hex_atom@4x.png",
-    "tooltip": "This bid is part of an atomic bid pair, where a bidder is requesting an export of not one asset, but a pair of two assets, and is thus placing bids in two different buckets. Be aware that if either of the atomic bids fails to meet the threshold, both bids will fail, and rewards will not be paid out. This bid is paired with ${atomic_bid_title}"
+    "imageUrl": "/images/hex_heart@4x.png",
+    "tooltip": "This bid is from a first-time bidder on Hydro. New teams often offer extra tribute or bonuses to win early community trust, and your vote can help them prove their model and unlock future rounds. Consider supporting if you'd like to diversify Hydro's deployments and encourage fresh projects."
   },
   "atomic_bid": {
-    "imageUrl": "/images/hex_wave@4x.png",
-    "tooltip": "This bid is using [Riptide](https://x.com/HydroTeam_/status/1920463867043328410), Hydro's opt-in \"high-risk / high-reward\" mode. Be aware that you'll earn a share of the deployment yield if it performs well; if it under-performs, a portion of your locked ATOM can be forfeited. Support Riptide bids only if you're comfortable underwriting this additional risk."
+    "imageUrl": "/images/hex_atom@4x.png",
+    "tooltip": "This bid is part of an atomic bid pair, where a bidder is requesting an export of not one asset, but a pair of two assets, and is thus placing bids in two different buckets. Be aware that if either of the atomic bids fails to meet the threshold, both bids will fail, and rewards will not be paid out. This bid is paired with ${atomic_bid_title}"
   },
   "vortex": {
     "imageUrl": "/images/hex_cyclone@4x.png",
     "tooltip": "This bid is using [Vortex](https://x.com/HydroTeam_/status/1909965275346182627), Hydro's mechanism for providing concentrated liquidity. Vortex pairs Hydro's deployed token with the bidder-supplied token in a tightly-bounded range; if the price drifts outside that range, anyone can liquidate the position to repay Hydro's ATOM, ending the deployment early."
   },
   "riptide": {
-    "imageUrl": "/images/hex_heart@4x.png",
-    "tooltip": "This bid is from a first-time bidder on Hydro. New teams often offer extra tribute or bonuses to win early community trust, and your vote can help them prove their model and unlock future rounds. Consider supporting if you'd like to diversify Hydro's deployments and encourage fresh projects."
+    "imageUrl": "/images/hex_wave@4x.png",
+    "tooltip": "This bid is using [Riptide](https://x.com/HydroTeam_/status/1920463867043328410), Hydro's opt-in \"high-risk / high-reward\" mode. Be aware that you'll earn a share of the deployment yield if it performs well; if it under-performs, a portion of your locked ATOM can be forfeited. Support Riptide bids only if you're comfortable underwriting this additional risk."
   },
   "highlighted_bid": {
     "imageUrl": "/images/hex_star@4x.png",
