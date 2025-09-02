@@ -981,6 +981,7 @@
     "projectUrl": "https://www.jurisprotocol.com/",
     "committeeComments": "Reviewed by PhilRX on 13-Aug-2025: The Hydro Committee has approved this Vortex bid, with the liquidity deployment capped at 1000 ATOM. While Vortex doesn’t completely remove the risk, this initial deployment will be limited in scope to maintain a conservative approach and allow Hydro & Juris to safely run a pilot test of Vortex. In the event of a liquidation, the proposed 60% liquidation bonus should be enough to cover any excessive slippage occurring between the different sets of liquidity pools.\n### Disclaimer\nThis document is provided for informational purposes only and does not constitute investment advice, a recommendation, or an offer to buy or sell any financial instrument or participate in any investment strategy. The information contained herein reflects current views as of the date of publication and is subject to change without notice. Recipients should conduct their own research and consult with professional advisors before making any investment decisions. Hydro makes no representations or warranties, express or implied, regarding the accuracy, completeness, or suitability of the information provided.",
     "requestAmount": [[1000, "ATOM"]],
-    "minMaxTargetPolApr": [4, 4]
+    "minMaxTargetPolApr": [4, 4],
+    "badges": ["first_time_bidder", "vortex"]
   }
 }
